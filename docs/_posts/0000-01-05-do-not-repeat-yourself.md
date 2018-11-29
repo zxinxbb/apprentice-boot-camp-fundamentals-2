@@ -106,8 +106,8 @@ Pair up to make following changes. Ensure Receipt is correct. **Try to make each
 -[+] ‘A’ = Apple, ‘B’ = Banana, ‘C’ = Cherry, ‘D’ = Damson
 -[+] Drought! Bananas double in price, no longer on offer
 
-Note: In this case it is intentional  
-  Reveal requirements as people reach them
+Note: In this case duplication is intentional  
+  Reveal requirements with a few minutes inbetween
 
 ---
 
