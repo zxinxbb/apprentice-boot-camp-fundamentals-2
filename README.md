@@ -38,7 +38,15 @@ MD to make lists / randomise
 
 ### Follow-on tasks
 
-TBC
+Organisation mentors should look to exercise the knowledge we’ve covered in the boot camp. Below are suggestions for tasks that would do this, but please use your own judgement to work out what to do. There is no need for anything to be returned to MD or the presenters—it’s just a learning exercise.
+
+* Take a look at one of your codebases and find examples of duplication
+* Do a kata using the red green refactor practice
+  * We will be doing the Bowling Kata as part of the boot camp
+* Spend a day doing red green refactor on your codebase with a pair, and leave some time at the end of the day to reflect / retrospect
+  * Did you enjoy it
+  * What made it difficult
+  * What made it easier
 
 ## Day Two
 
@@ -53,7 +61,7 @@ TBC
 
 <!--- For end of boot camp: Signposting for apprentices self study, further learning, online resources, practice etc. --->
 
-* [TBC]()
+* [List of katas](http://codingdojo.org/kata/)
 * [TBC]()
 * [TBC]()
  
@@ -64,9 +72,27 @@ The slides can be viewed [here](http://engineering.autotrader.co.uk/md-apprentic
 
 ## Exercises
 
-<!--- Link to details of / resources for exercises set during bootcamp --->
+* Receipt duplication (pairs)
+* TDD Bowling Kata (pairs)
 
 # Day One
+
+
+## DRY
+
+* Definition
+* Adapting poorly implemented checkout kata with lots of duplication
+* How to fix
+* Why duplication happens
+
+## Red Green Refactor
+
+* Why do we write tests
+* Why do we write tests first
+* Why people might not write tests first
+* Arrange, Act, Assert
+* Red, Green, Refactor
+* Bowling Kata with TDD
 
 * Test Doubles
 * Dependency Injection
