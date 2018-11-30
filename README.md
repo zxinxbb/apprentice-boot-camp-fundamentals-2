@@ -31,11 +31,6 @@ Several exercises (katas and code starters) will need to be ported to required l
 
 None
 
-## Day One
-
-**Groups / Pairs:** Presenters to send MD list of activities and what groups are needed
-MD to make lists / randomise
-
 ### Follow-on tasks
 
 Organisation mentors should look to exercise the knowledge we’ve covered in the boot camp. Below are suggestions for tasks that would do this, but please use your own judgement to work out what to do. There is no need for anything to be returned to MD or the presenters—it’s just a learning exercise.
@@ -47,13 +42,6 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
   * Did you enjoy it
   * What made it difficult
   * What made it easier
-
-## Day Two
-
-**Groups / Pairs:** Presenters to send MD list of activities and what groups are needed
-MD to make lists / randomise
-
-### Follow-on tasks
 
 TBC
 
@@ -68,24 +56,25 @@ TBC
 ## Slides
 
 The slides can be viewed [here](http://engineering.autotrader.co.uk/md-apprentice-boot-camp-fundamentals-2/)
-<!--- Link to slides used --->.
+<!--- Link to slides used --->
 
 ## Exercises
 
 * Receipt duplication (pairs)
 * TDD Bowling Kata (pairs)
+* TDDing realistic stories
+* Rename refactor
+* Extract variable refactor
+* Extract method refactor
+* Adapting duplicated code
+* Removing duplication
+* Setting up CI
+* Branching and creating Pull Requests
+* Resolving, tracing, telneting?
 
-# Day One
+# Boot Camp Summary
 
-
-## DRY
-
-* Definition
-* Adapting poorly implemented checkout kata with lots of duplication
-* How to fix
-* Why duplication happens
-
-## Red Green Refactor
+## TDD
 
 * Why do we write tests
 * Why do we write tests first
@@ -93,16 +82,44 @@ The slides can be viewed [here](http://engineering.autotrader.co.uk/md-apprentic
 * Arrange, Act, Assert
 * Red, Green, Refactor
 * Bowling Kata with TDD
+* Implementing realistic user stories using TDD
 
-* Test Doubles
-* Dependency Injection
-* Mocking frameworks
-* 2nd Tier of Testing Pyramid
-* More on Source Control (Branching, Pull requests, etc)
-* Intro to Data Stores - Repo Pattern
-* Continuous Integration
+## Refactoring
 
-# Day Two
+* Refactoring vs rewriting
+* Renaming exercise
+* Extracting variables exercise
+* Extracting methods exercise
+
+## DRY
+
+* Definition
+* Adapting poorly implemented checkout kata with lots of duplication
+* How to fix
+* Why duplication happens
+* Exercise to make changes amongst duplication
+* Exercise to refactor away duplication
+
+## Continuous Integration
+
+* What is CI
+* Why is CI important
+* Demo of how CI can be applied to a project (Travis or similar against public repo)
+* CI practical—setting up Travis or similar on own repo?
+
+## More on source control
+
+* Branching
+* Pull requests
+* Trunk vs branch development
+
+# How the internet works
+
+* Hostnames, IP, DNS
+* Networking
+* Physical infrastructure
+* HTTP
+
 
 # Briefing for organisation mentors
 
