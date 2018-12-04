@@ -1,4 +1,4 @@
-package rename;
+package refactoring;
 
 import org.junit.Test;
 

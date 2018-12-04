@@ -1,4 +1,4 @@
-package rename;
+package refactoring;
 
 import javax.xml.bind.DatatypeConverter;
 import java.nio.charset.StandardCharsets;
