@@ -1,4 +1,4 @@
-## DRY
+# DRY
 
 AKA Don’t Repeat Yourself
 AKA Duplication / Repetition
