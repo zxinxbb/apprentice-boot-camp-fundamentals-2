@@ -1,4 +1,12 @@
-# Created by .ignore support plugin (hsz.mobi)
+# C-sharp/vscode ignores
+.vscode
+bin
+obj
+
 .idea
-_site
+
+/docs/_site
 /docs/Gemfile.lock
+
+.gradle
+/build/
