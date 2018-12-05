@@ -65,6 +65,7 @@ The slides can be viewed [here](http://engineering.autotrader.co.uk/md-apprentic
 * TDDing realistic stories
 * Rename refactor
 * Extract variable refactor
+* Extract constant refactor
 * Extract method refactor
 * Adapting duplicated code
 * Removing duplication
@@ -81,24 +82,26 @@ The slides can be viewed [here](http://engineering.autotrader.co.uk/md-apprentic
 * Why people might not write tests first
 * Arrange, Act, Assert
 * Red, Green, Refactor
-* Bowling Kata with TDD
-* Implementing realistic user stories using TDD
+* Exercise: Bowling Kata with TDD
+* Exercise: Implementing realistic user stories using TDD
 
 ## Refactoring
 
 * Refactoring vs rewriting
-* Renaming exercise
-* Extracting variables exercise
-* Extracting methods exercise
+* Exercise: Renaming things
+* Exercise: Extracting variables
+* Exercise: Extracting constants
+* Exercise: Extracting methods
 
 ## DRY
 
 * Definition
-* Adapting poorly implemented checkout kata with lots of duplication
+* Exercise: adapt poorly implemented checkout kata with lots of duplication
 * How to fix
 * Why duplication happens
-* Exercise to make changes amongst duplication
-* Exercise to refactor away duplication
+* Exercise: refactor away duplication
+
+<!--- 
 
 ## Continuous Integration
 
@@ -120,6 +123,7 @@ The slides can be viewed [here](http://engineering.autotrader.co.uk/md-apprentic
 * Physical infrastructure
 * HTTP
 
+--->
 
 # Briefing for organisation mentors
 

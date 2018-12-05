@@ -70,6 +70,14 @@ Recognised technique by which you change some aspect of the code
 
 ---
 
+## You currently do these things manually
+
+(and slowly)
+
+(and the code is broken while you do)
+
+---
+
 # IDE to the rescue
 
 Leverage your IDE (e.g. IntelliJ) to perform the refactor for you
@@ -115,18 +123,29 @@ void scan(String stockKeepingUnit) {
 
 Rename all the things
 
+Aim is to get comfortable with the rename refactor
+
 * Do not break ThingyTest
 * **ONLY** use rename
   *  Mac & Windows: ‘⇧ F6’
 * Try to make it make more sense
 * Rename stuff as you try to understand the code
 
+Note:
+  More important to get comfortable than finish  
+  Ensure screen set up to live code when reviewing  
+  IntelliJ in presentation mode on extension display  
+
 ---
 
 # Review
 
-* What did you rename?
 * Did you improve the code?
+-[+] What did you rename?  
+  (live-code the suggestions…)
+
+Note:
+  Toggle between extended and mirrored with ‘⌘ F1’  
 
 ---
 
@@ -163,6 +182,8 @@ if (numberOfAIsMultipleOf3) {
 
 Extract all the variables
 
+Aim is to get comfortable with the extract variable refactor
+
 * Do not break ThingyTest
 * **ONLY** use extract variable
   *  Mac: ‘⌥ ⌘ V’ (i.e. ‘option command V’)
@@ -173,8 +194,13 @@ Extract all the variables
 
 # Review
 
-* What did you extract?
 * Did you improve the code?
+-[+] What variables did you extract?  
+  (live-code the suggestions…)
+
+Note:
+  Toggle between extended and mirrored with ‘⌘ F1’  
+  Apply refactors as suggested  
 
 ---
 
@@ -209,6 +235,8 @@ if (numberOfA % 3 == 0) {
 
 Extract all the constants
 
+Aim is to get comfortable with the extract constant refactor
+
 * Do not break ThingyTest
 * **ONLY** use extract constant
   *  Mac: ‘⌥ ⌘ C’ (i.e. ‘option command C’)
@@ -219,10 +247,12 @@ Extract all the constants
 
 # Review
 
-* What did you extract?
 * Did you improve the code?
+-[+] What constants did you extract?  
+  (live-code the suggestions…)
 
-Note: Apply refactors as suggested  
+Note: Toggle between extended and mirrored with ‘⌘ F1’  
+  Apply refactors as suggested  
   Make sure you cover the binary / hex numbers,
   booleans for multiples  
   FIZZ, BUZZ etc
@@ -281,6 +311,8 @@ After:
 
 Extract some methods
 
+Aim is to get comfortable with the extract method refactor
+
 * Do not break ThingyTest
 * **ONLY** use extract method
   *  Mac: ‘⌥ ⌘ M’ (i.e. ‘option command M’)
@@ -291,8 +323,12 @@ Extract some methods
 
 # Review
 
-* What did you extract?
 * Did you improve the code?
+-[+] What did you extract?  
+  (live-code the suggestions…)
+
+Note: Toggle between extended and mirrored with ‘⌘ F1’  
+  Apply refactors as suggested  
 
 ---
 
@@ -332,7 +368,7 @@ org.junit.ComparisonFailure:
 Expected :"1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz 41 Fizz 43 44 FizzBuzz 46 47 Fizz 49 Buzz Fizz 52 53 Fizz Buzz 56 Fizz 58 59 FizzBuzz 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz"
 Actual   :"1  3Buzz 4 5  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100"
 ```
--[+] Method does two things!
+-[+] 🚨 ALERT! Method does two things! 🚨
   ```
   private boolean isFizz() {
       countsUp++;
@@ -344,5 +380,6 @@ Actual   :"1  3Buzz 4 5  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 2
 
 Note: This actually broke the tests  
   Careful with your refactors  
+  Code can have side effects  
   Need to run tests each time  
   Can fix this but that’s for another time  
