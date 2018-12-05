@@ -100,7 +100,8 @@ Note: It is usually unintentional
 
 Pair up to make following changes. Ensure Receipt is correct. **Try to make each change before removing duplication.**
 
--[+] Change it so that you can have 5 ‘A’ for 220
+-[+] Change Checkout so that 5 ‘A’ now cost 220  
+  (remember to check that Receipt still works)
 -[+] Change it so that you can have 4 ‘C’ for 70
 -[+] Change it so that you can have 5 ‘D’ for 60
 -[+] ‘A’ = Apple, ‘B’ = Banana, ‘C’ = Cherry, ‘D’ = Damson
