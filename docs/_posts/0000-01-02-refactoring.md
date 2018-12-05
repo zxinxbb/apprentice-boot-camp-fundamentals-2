@@ -25,9 +25,9 @@ What is the difference?
 
 Note:
   Term refactoring often used to mean rewriting  
-  Just terminology but important to be intentional
-  Rewriting can break functionality
-  Refactoring does not/should not
+  Just terminology but important to be intentional  
+  Rewriting can break functionality  
+  Refactoring does not/should not  
 
 ---
 
@@ -38,7 +38,7 @@ Note:
 -[+] Make code easier to change
 
 Note:
-  Arguably readability is about maintainability
+  Arguably readability is about maintainability  
 
 ---
 
