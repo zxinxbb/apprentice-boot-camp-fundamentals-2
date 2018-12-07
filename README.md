@@ -55,8 +55,7 @@ TBC
  
 ## Slides
 
-The slides can be viewed [here](http://engineering.autotrader.co.uk/md-apprentice-boot-camp-fundamentals-2/)
-<!--- Link to slides used --->
+The slides can be viewed from the link at the top of the repository.
 
 ## Exercises
 
