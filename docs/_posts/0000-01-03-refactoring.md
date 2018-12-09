@@ -1,9 +1,23 @@
+# Boot-camp
+## Fundamentals 2
+### Day Two
+
+---
+
+# Retro
+
+Note: Retrospect on day one  
+  What did you like  
+  WHat didn’t you like?  
+
+---
 
 # Refactoring
 
-What is it?
+-[+] What is it?
 
 Note:
+  Explain we are covering refactoring as it’s part of TDD, and a necessary skill for next exercises 
   Ask for suggestions  
 
 ---

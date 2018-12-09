@@ -169,7 +169,3 @@ Note: Names in methods, Strings, variables
 -[+] Offers were tested twice
 
 Note: Mention that tests are declarative, explain declarative
-
----
-
-## Retro/stand-up
