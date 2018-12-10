@@ -98,7 +98,7 @@ Note: It is usually unintentional
 
 # Exercise (45 mins)
 
-Pair up to make following changes. Ensure Receipt is correct. **Try to make each change before removing duplication.**
+Pair up to make following changes. **Run all tests after each change.** Try to make each change before removing duplication.
 
 -[+] Change Checkout so that 5 ‘A’ now cost 220  
   (remember to check that Receipt still works)
