@@ -5,7 +5,18 @@ from thingy import Thingy
 class ThingyTest(unittest.TestCase):
 
     def test_it_works(self):
-        expected = "1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz 41 Fizz 43 44 FizzBuzz 46 47 Fizz 49 Buzz Fizz 52 53 Fizz Buzz 56 Fizz 58 59 FizzBuzz 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz"
+
+        expected = bytearray.fromhex("3120322046697a7a20342042757a7a2046697a7a203720382046697a7a2042757a7a203131" +
+                                     "2046697a7a2031332031342046697a7a42757a7a2031362031372046697a7a2031392042757a7a204669" +
+                                "7a7a2032322032332046697a7a2042757a7a2032362046697a7a2032382032392046697a7a42757a7a20" +
+                                "33312033322046697a7a2033342042757a7a2046697a7a2033372033382046697a7a2042757a7a203431" +
+                                "2046697a7a2034332034342046697a7a42757a7a2034362034372046697a7a2034392042757a7a204669" +
+                                "7a7a2035322035332046697a7a2042757a7a2035362046697a7a2035382035392046697a7a42757a7a20" +
+                                "36312036322046697a7a2036342042757a7a2046697a7a2036372036382046697a7a2042757a7a203731" +
+                                "2046697a7a2037332037342046697a7a42757a7a2037362037372046697a7a2037392042757a7a204669" +
+                                "7a7a2038322038332046697a7a2042757a7a2038362046697a7a2038382038392046697a7a42757a7a20" +
+                                     "39312039322046697a7a2039342042757a7a2046697a7a2039372039382046697a7a2042757a7a").decode('utf-8')
+
         actual = Thingy().do_the_thing()
         self.assertEqual(expected, actual)
 
