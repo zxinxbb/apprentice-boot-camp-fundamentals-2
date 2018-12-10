@@ -8,10 +8,20 @@ class Checkout {
 
     void scan(String sku) {
         if ("A".equals(sku)) {
-            total += 50;
+            if (++numberOfA % 3 == 0) {
+                total += 30;
+            }
+            else {
+                total += 50;
+            }
             receipt.scannedA();
         } else if ("B".equals(sku)) {
-            total += 30;
+            if (++numberOfB % 2 == 0) {
+                total += 15;
+            }
+            else {
+                total += 30;
+            }
             receipt.scannedB();
         } else if ("C".equals(sku)) {
             total += 20;
@@ -20,24 +30,13 @@ class Checkout {
             total += 15;
             receipt.scannedD();
         }
-        if ("A".equals(sku)) {
-            numberOfA++;
-            if (numberOfA % 3 == 0) {
-                total -= 20;
-            }
-        } else if ("B".equals(sku)) {
-            numberOfB++;
-            if (numberOfB % 2 == 0) {
-                total -= 15;
-            }
-        }
     }
 
     int total() {
         return total;
     }
 
-    public String receipt() {
+    String receipt() {
         return receipt.text();
     }
 }
