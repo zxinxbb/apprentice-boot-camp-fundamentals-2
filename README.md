@@ -42,16 +42,18 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
   * Did you enjoy it
   * What made it difficult
   * What made it easier
-
-TBC
+* Pair on a refactor where you use the IDE to refactor your code rather than manually rewriting it
+* Explore ‘Refactoring Guru’ from the resources below
+* Try to get better at using the keyboard shortcuts for your IDE
+  * For IntelliJ, you could use the [Force Shortcuts](https://plugins.jetbrains.com/plugin/8357-force-shortcuts) plugin for a day to force you to learn, or just add popups to remind you with [Key Promoter X](https://plugins.jetbrains.com/plugin/9792-key-promoter-x)
 
 ## Further reading / learning resources
 
 <!--- For end of boot camp: Signposting for apprentices self study, further learning, online resources, practice etc. --->
 
+* [Refactoring Guru](https://refactoring.guru/) is a great site which covers the practices, techniques and reasons around refactoring
 * [List of katas](http://codingdojo.org/kata/)
-* [TBC]()
-* [TBC]()
+* [Michael Feathers’ Working Effectively with Legacy Code](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) if you want a book to read
  
 ## Slides
 
