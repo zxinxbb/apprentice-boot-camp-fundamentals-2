@@ -12,14 +12,6 @@ Note: Retrospect on day one
 
 ---
 
-# Run all tests at each stage
-
-Note: Observation from yesterday  
-  Some of you are running one test each time  
-  Run all tests to make sure you don’t introduce regressions  
-
----
-
 # Refactoring
 
 -[+] What is it?
