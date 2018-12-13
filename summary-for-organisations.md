@@ -12,6 +12,6 @@ The follow on task information is here: https://github.com/MCR-Digital/apprentic
 
 Further reading: https://github.com/MCR-Digital/apprentice-bootcamp-fundamentals-2#further-reading--learning-resources
 
-It’s vital that you to follow up with apprentices based on the follow up material linked to above. It’s important that you look at ways for them to apply the material that we covered, as things don’t sink in without being exercised a few times.
+It’s vital that you follow up with apprentices based on the follow-up material linked to above. It’s important that you look at ways for them to apply the material that we covered, as things don’t sink in without being exercised a few times.
 
 Thanks for reading!
