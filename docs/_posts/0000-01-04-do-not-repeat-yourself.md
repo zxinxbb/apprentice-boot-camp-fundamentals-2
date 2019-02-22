@@ -14,11 +14,11 @@ Note: DRY is a principle telling us to avoid duplication in code
 
 # Duplication can be…
 
--[+] The exact same code in more than one place
--[+] Almost identical code in more than one place
--[+] The same String / Number in more than one place
--[+] Conditionals (ifs) using the same value in multiple places
--[+] Code represents knowledge—**repeated knowledge is duplication**
++ The exact same code in more than one place
++ Almost identical code in more than one place
++ The same String / Number in more than one place
++ Conditionals (ifs) using the same value in multiple places
++ Code represents knowledge—**repeated knowledge is duplication**
 
 ---
 
@@ -26,9 +26,9 @@ Note: DRY is a principle telling us to avoid duplication in code
 
 It makes it hard to change code safely
 
--[+] Have to change tests in more than one place
--[+] Worse… you probably don’t have test coverage
--[+] May not realise you have to change something in many places
++ Have to change tests in more than one place
++ Worse… you probably don’t have test coverage
++ May not realise you have to change something in many places
 
 Note: Sometimes okay temporarily…  
   because in progress of refactoring  
@@ -45,10 +45,10 @@ Takes careful design to reduce duplication while avoiding coupling
 
 # Can inheritance help?
 
--[+] Usually no
--[+] Certainly not until you have learned when not to
--[+] Inheritance by nature is highly coupled
--[+] Overuse is counter-productive to SOLID principles
++ Usually no
++ Certainly not until you have learned when not to
++ Inheritance by nature is highly coupled
++ Overuse is counter-productive to SOLID principles
 
 Note: Discuss Inheritance vs. Composition (Boot camp 3)  
   Danger of Inheritance for code re-use  
@@ -57,20 +57,20 @@ Note: Discuss Inheritance vs. Composition (Boot camp 3)
 
 # How to fix?
 
--[+] Values are easy
-  -[+] Extract variable/field/constant
-  -[+] Use caution not to break encapsulation/introduce coupling
-  -[+] Sometimes duplicated values hide shared behaviour
++ Values are easy
+  + Extract variable/field/constant
+  + Use caution not to break encapsulation/introduce coupling
+  + Sometimes duplicated values hide shared behaviour
 
 ---
 
 # Continued…
 
--[+] De-duplicate behaviour by extracting and centralising methods
-  -[+] Extract one method
-  -[+] Move method to the correct location
-    -[+] Might involve creating previously missing class
-  -[+] Introduce parameters to facilitate other usages
++ De-duplicate behaviour by extracting and centralising methods
+  + Extract one method
+  + Move method to the correct location
+    + Might involve creating previously missing class
+  + Introduce parameters to facilitate other usages
 
 ---
 
@@ -85,29 +85,26 @@ Note: Duplication better when code is cohesive
 
 # Why does duplication happen?
 
--[+] Copy & paste
--[+] Accidental duplication
--[+] Comments
--[+] Test names
--[+] Independent invention
--[+] Impatience
++ Copy & paste
++ Accidental duplication
++ Comments
++ Test names
++ Independent invention
++ Impatience
 
 Note: It is usually unintentional  
 
 ---
 
-# Exercise (20–30 mins)
+## Exercise (20–30 mins)
 
-Aim is to experience problems of duplication.  
-
-Rules:
+Aim is to experience problems of duplication. Rules:
 
 * Only change functionality with a failing test
 * Run **all** tests after each change
-
--[+] Change Checkout so that 5 ‘A’ now cost 220  
++ Change Checkout so that 5 ‘A’ now cost 220  
   Be sure to check and update ReceiptTest.offers()
--[+] Extension: 4 ‘C’ for 70, 5 ‘D’ for 60
++ Extension: 4 ‘C’ for 70, 5 ‘D’ for 60
 
 Note: Make sure they pair up  
   Ask them to note down duplication they find  
@@ -118,8 +115,8 @@ Note: Make sure they pair up
 
 # Review
 
--[+] What made that harder?
--[+] Did you change the amount of duplication?
++ What made that harder?
++ Did you change the amount of duplication?
 
 Note: 
   Had to change 21 lines to make the change to A’s offer  
@@ -143,10 +140,10 @@ Note:
     }
 ```
 What duplication did we find?
--[+] Product names
--[+] Costs
--[+] Offer trigger & configuration
--[+] Formatting
++ Product names
++ Costs
++ Offer trigger & configuration
++ Formatting
 
 Note: Names in methods, Strings, variables  
   Costs in text and also as part of offer  
@@ -170,9 +167,9 @@ Note: Names in methods, Strings, variables
 
 ## What about in the tests?
 
--[+] Is the format of receipt duplicated?
--[+] Tests not necessarily duplication
--[+] Offers were tested twice
++ Is the format of receipt duplicated?
++ Tests not necessarily duplication
++ Offers were tested twice
 
 Note: Mention that tests are declarative, explain declarative  
 

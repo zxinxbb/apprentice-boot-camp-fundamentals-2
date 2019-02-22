@@ -14,7 +14,7 @@ Note: Retrospect on day one
 
 # Refactoring
 
--[+] What is it?
++ What is it?
 
 Note:
   Explain we are covering refactoring as it’s part of TDD, and a necessary skill for next exercises 
@@ -47,9 +47,9 @@ Note:
 
 # Why Refactor?
 
--[+] Improve maintainability
--[+] Make code easier to read
--[+] Make code easier to change
++ Improve maintainability
++ Make code easier to read
++ Make code easier to change
 
 Note:
   Arguably readability is about maintainability  
@@ -61,9 +61,9 @@ Note:
 
 <background>green<background/>
 
--[+] Compilation errors and failing tests are a distraction
--[+] Generally refactoring doesn’t break tests / syntax
--[+] Less head scratching ten minutes later…
++ Compilation errors and failing tests are a distraction
++ Generally refactoring doesn’t break tests / syntax
++ Less head scratching ten minutes later…
 
 ---
 
@@ -75,12 +75,12 @@ Recognised technique by which you change some aspect of the code
 
 # For example…
 
--[+] Rename
--[+] Extract variable
--[+] Extract field
--[+] Extract constant
--[+] Extract method/function
--[+] Inline method/function
++ Rename
++ Extract variable
++ Extract field
++ Extract constant
++ Extract method/function
++ Inline method/function
 
 ---
 
@@ -95,10 +95,10 @@ Recognised technique by which you change some aspect of the code
 # IDE to the rescue
 
 Leverage your IDE (e.g. IntelliJ) to perform the refactor for you
--[+] Safer
--[+] Quicker (once you practice)
--[+] Easier
--[+] Less distracting
++ Safer
++ Quicker (once you practice)
++ Easier
++ Less distracting
 
 Note:
   Explain that the IDE automates manual refactors  
@@ -110,11 +110,11 @@ Note:
 
 # Rename
 
--[+] Your go-to refactor!
--[+] Naming is hard, we get it wrong
--[+] Use it to improve meaning of code
--[+] Rename variables, methods, classes
--[+] Shift + F6 in IntelliJ (your IDE/keymap may vary)
++ Your go-to refactor!
++ Naming is hard, we get it wrong
++ Use it to improve meaning of code
++ Rename variables, methods, classes
++ Shift + F6 in IntelliJ (your IDE/keymap may vary)
 
 ---
 
@@ -155,7 +155,7 @@ Note:
 # Review
 
 * Did you improve the code?
--[+] What did you rename?  
++ What did you rename?  
   (live-code the suggestions…)
 
 Note:
@@ -167,9 +167,9 @@ Note:
 
 Extract part of a line into a variable (and other duplicate code)
 
--[+] Split long line of code into meaningful chunks
--[+] Can be used to remove duplication
--[+] Can make the variable name descriptive
++ Split long line of code into meaningful chunks
++ Can be used to remove duplication
++ Can make the variable name descriptive
 
 ---
 
@@ -209,7 +209,7 @@ Aim is to get comfortable with the extract variable refactor
 # Review
 
 * Did you improve the code?
--[+] What variables did you extract?  
++ What variables did you extract?  
   (live-code the suggestions…)
 
 Note:
@@ -220,9 +220,9 @@ Note:
 
 # Extract Constant
 
--[+] Remove ‘magic numbers’
--[+] Add meaning to values found in the code
--[+] Reduce duplication of values  
++ Remove ‘magic numbers’
++ Add meaning to values found in the code
++ Reduce duplication of values  
   (when they are intended to change at the same time)
 
 ---
@@ -262,7 +262,7 @@ Aim is to get comfortable with the extract constant refactor
 # Review
 
 * Did you improve the code?
--[+] What constants did you extract?  
++ What constants did you extract?  
   (live-code the suggestions…)
 
 Note: Toggle between extended and mirrored with ‘⌘ F1’  
@@ -275,7 +275,7 @@ Note: Toggle between extended and mirrored with ‘⌘ F1’
 
 # Extract Method
 
--[+] Reduce duplication of blocks of code  
++ Reduce duplication of blocks of code  
 
 ---
 
@@ -338,7 +338,7 @@ Aim is to get comfortable with the extract method refactor
 # Review
 
 * Did you improve the code?
--[+] What did you extract?  
++ What did you extract?  
   (live-code the suggestions…)
 
 Note: Toggle between extended and mirrored with ‘⌘ F1’  
@@ -348,10 +348,10 @@ Note: Toggle between extended and mirrored with ‘⌘ F1’
 
 # Inline
 
--[+] Replace a method/variable call with equivalent code
--[+] Opposite of extract method/variable
--[+] Use with caution
--[+] Useful when you want to move code between methods
++ Replace a method/variable call with equivalent code
++ Opposite of extract method/variable
++ Use with caution
++ Useful when you want to move code between methods
 
 ---
 
@@ -382,7 +382,7 @@ org.junit.ComparisonFailure:
 Expected :"1 2 Fizz 4 Buzz Fizz 7 8 Fizz Buzz 11 Fizz 13 14 FizzBuzz 16 17 Fizz 19 Buzz Fizz 22 23 Fizz Buzz 26 Fizz 28 29 FizzBuzz 31 32 Fizz 34 Buzz Fizz 37 38 Fizz Buzz 41 Fizz 43 44 FizzBuzz 46 47 Fizz 49 Buzz Fizz 52 53 Fizz Buzz 56 Fizz 58 59 FizzBuzz 61 62 Fizz 64 Buzz Fizz 67 68 Fizz Buzz 71 Fizz 73 74 FizzBuzz 76 77 Fizz 79 Buzz Fizz 82 83 Fizz Buzz 86 Fizz 88 89 FizzBuzz 91 92 Fizz 94 Buzz Fizz 97 98 Fizz Buzz"
 Actual   :"1  3Buzz 4 5  7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66 67 68 69 70 71 72 73 74 75 76 77 78 79 80 81 82 83 84 85 86 87 88 89 90 91 92 93 94 95 96 97 98 99 100"
 ```
--[+] 🚨 ALERT! Method does two things! 🚨
++ 🚨 ALERT! Method does two things! 🚨
   ```
   private boolean isFizz() {
       countsUp++;
