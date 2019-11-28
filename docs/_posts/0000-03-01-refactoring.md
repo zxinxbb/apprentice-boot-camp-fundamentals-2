@@ -2,9 +2,9 @@
 ## Fundamentals 2
 ### Day Two
 
----
+--
 
-# Retro
+## Retro
 
 Note: Retrospect on day one  
   What did you like  
@@ -12,7 +12,7 @@ Note: Retrospect on day one
 
 ---
 
-# Refactoring
+## Refactoring
 
 + What is it?
 
@@ -20,22 +20,22 @@ Note:
   Explain we are covering refactoring as it’s part of TDD, and a necessary skill for next exercises 
   Ask for suggestions  
 
----
+--
 
 > “Code refactoring is the process of restructuring existing computer code—changing the factoring—without changing its external behavior.”—Wikipedia
 
 Note: Highlight ‘without changing its external behaviour’  
   Changing nonfunctional properties of the code
 
----
+--
 
-# Refactoring vs Rewriting
+## Refactoring vs Rewriting
 
 What is the difference?
 
----
+--
 
-# Rewriting **can** change functionality
+## Rewriting **can** change functionality
 
 Note:
   Term refactoring often used to mean rewriting  
@@ -43,9 +43,9 @@ Note:
   Rewriting can break functionality  
   Refactoring does not/should not  
 
----
+--
 
-# Why Refactor?
+## Why Refactor?
 
 + Improve maintainability
 + Make code easier to read
@@ -54,10 +54,10 @@ Note:
 Note:
   Arguably readability is about maintainability  
 
----
+--
 
 
-# Stay green!
+## Stay green!
 
 <background>green<background/>
 
@@ -65,15 +65,15 @@ Note:
 + Generally refactoring doesn’t break tests / syntax
 + Less head scratching ten minutes later…
 
----
+--
 
-# What is a refactor?
+## What is a refactor?
 
 Recognised technique by which you change some aspect of the code
 
----
+--
 
-# For example…
+## For example…
 
 + Rename
 + Extract variable
@@ -82,7 +82,7 @@ Recognised technique by which you change some aspect of the code
 + Extract method/function
 + Inline method/function
 
----
+--
 
 ## You currently do these things manually
 
@@ -90,9 +90,9 @@ Recognised technique by which you change some aspect of the code
 
 (and the code is broken while you do)
 
----
+--
 
-# IDE to the rescue
+## IDE to the rescue
 
 Leverage your IDE (e.g. IntelliJ) to perform the refactor for you
 + Safer
@@ -108,7 +108,7 @@ Note:
 
 ---
 
-# Rename
+## Rename
 
 + Your go-to refactor!
 + Naming is hard, we get it wrong
@@ -116,9 +116,9 @@ Note:
 + Rename variables, methods, classes
 + Shift + F6 in IntelliJ (your IDE/keymap may vary)
 
----
+--
 
-# Example
+## Example
 
 Before:
 ```java
@@ -131,9 +131,9 @@ void scan(String stockKeepingUnit) {
     if ("A".equals(stockKeepingUnit)) {
 ```
 
----
+--
 
-# Exercise
+## Exercise
 
 Rename all the things
 
@@ -150,9 +150,9 @@ Note:
   Ensure screen set up to live code when reviewing  
   IntelliJ in presentation mode on extension display  
 
----
+--
 
-# Review
+## Review
 
 * Did you improve the code?
 + What did you rename?  
@@ -163,7 +163,7 @@ Note:
 
 ---
 
-# Extract Variable
+## Extract Variable
 
 Extract part of a line into a variable (and other duplicate code)
 
@@ -171,9 +171,9 @@ Extract part of a line into a variable (and other duplicate code)
 + Can be used to remove duplication
 + Can make the variable name descriptive
 
----
+--
 
-# Example
+## Example
 
 Before:
 ```java
@@ -190,9 +190,9 @@ if (numberOfAIsMultipleOf3) {
 }
 ```
 
----
+--
 
-# Exercise
+## Exercise
 
 Extract all the variables
 
@@ -204,9 +204,9 @@ Aim is to get comfortable with the extract variable refactor
   * Windows: ‘Ctrl Alt V’
 * Try to make it make more sense
 
----
+--
 
-# Review
+## Review
 
 * Did you improve the code?
 + What variables did you extract?  
@@ -218,16 +218,16 @@ Note:
 
 ---
 
-# Extract Constant
+## Extract Constant
 
 + Remove ‘magic numbers’
 + Add meaning to values found in the code
 + Reduce duplication of values  
   (when they are intended to change at the same time)
 
----
+--
 
-# Example
+## Example
 
 Before:
 ```java
@@ -243,9 +243,9 @@ if (numberOfA % 3 == 0) {
 }
 ```
 
----
+--
 
-# Exercise
+## Exercise
 
 Extract all the constants
 
@@ -257,9 +257,9 @@ Aim is to get comfortable with the extract constant refactor
   * Windows: ‘Ctrl Alt C’
 * Try to make it make more sense
 
----
+--
 
-# Review
+## Review
 
 * Did you improve the code?
 + What constants did you extract?  
@@ -273,13 +273,13 @@ Note: Toggle between extended and mirrored with ‘⌘ F1’
 
 ---
 
-# Extract Method
+## Extract Method
 
 + Reduce duplication of blocks of code  
 
----
+--
 
-# Example
+## Example
 
 Before:
 ```java
@@ -296,9 +296,9 @@ Before:
     }
 ```
 
----
+--
 
-# Example
+## Example
 
 After:
 ```java
@@ -319,9 +319,9 @@ After:
 
 ```
 
----
+--
 
-# Exercise
+## Exercise
 
 Extract some methods
 
@@ -333,9 +333,9 @@ Aim is to get comfortable with the extract method refactor
   * Windows: ‘Ctrl Alt M’
 * Try to make it make more sense
 
----
+--
 
-# Review
+## Review
 
 * Did you improve the code?
 + What did you extract?  
@@ -346,16 +346,16 @@ Note: Toggle between extended and mirrored with ‘⌘ F1’
 
 ---
 
-# Inline
+## Inline
 
 + Replace a method/variable call with equivalent code
 + Opposite of extract method/variable
 + Use with caution
 + Useful when you want to move code between methods
 
----
+--
 
-# Example
+## Example
 
 Before:
 ```java
@@ -373,9 +373,9 @@ if (isFizz()) word += FIZZ();
 if (isBuzz()) word += BUZZ();
 ```
 
----
+--
 
-# Uh-oh!
+## Uh-oh!
 
 ```text
 org.junit.ComparisonFailure: 

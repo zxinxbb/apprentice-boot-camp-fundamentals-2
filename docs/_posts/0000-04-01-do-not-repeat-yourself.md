@@ -1,18 +1,18 @@
-# DRY
+## DRY
 
 AKA Don’t Repeat Yourself
 AKA Duplication / Repetition
 
 Note: DRY is a principle telling us to avoid duplication in code  
 
----
+--
 
 “Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.”
 	-- The Pragmatic Programmer
 
----
+--
 
-# Duplication can be…
+## Duplication can be…
 
 + The exact same code in more than one place
 + Almost identical code in more than one place
@@ -20,9 +20,9 @@ Note: DRY is a principle telling us to avoid duplication in code
 + Conditionals (ifs) using the same value in multiple places
 + Code represents knowledge—**repeated knowledge is duplication**
 
----
+--
 
-# Duplication is (usually) bad
+## Duplication is (usually) bad
 
 It makes it hard to change code safely
 
@@ -35,15 +35,15 @@ Note: Sometimes okay temporarily…
   getting something working before you understand it  
   in tests?  
 
----
+--
 
-# Removing duplication can introduce coupling
+## Removing duplication can introduce coupling
 
 Takes careful design to reduce duplication while avoiding coupling
 
----
+--
 
-# Can inheritance help?
+## Can inheritance help?
 
 + Usually no
 + Certainly not until you have learned when not to
@@ -53,18 +53,18 @@ Takes careful design to reduce duplication while avoiding coupling
 Note: Discuss Inheritance vs. Composition (Boot camp 3)  
   Danger of Inheritance for code re-use  
 
----
+--
 
-# How to fix?
+## How to fix?
 
 + Values are easy
   + Extract variable/field/constant
   + Use caution not to break encapsulation/introduce coupling
   + Sometimes duplicated values hide shared behaviour
 
----
+--
 
-# Continued…
+## Continued…
 
 + De-duplicate behaviour by extracting and centralising methods
   + Extract one method
@@ -72,18 +72,18 @@ Note: Discuss Inheritance vs. Composition (Boot camp 3)
     + Might involve creating previously missing class
   + Introduce parameters to facilitate other usages
 
----
+--
 
-# Alert: Some duplication is worse…
+## Alert: Some duplication is worse…
 
 Duplication gets worse with distance
 
 Note: Duplication better when code is cohesive  
   When code further apart hard to spot code that needs to change together 
 
----
+--
 
-# Why does duplication happen?
+## Why does duplication happen?
 
 + Copy & paste
 + Accidental duplication
@@ -111,9 +111,9 @@ Note: Make sure they pair up
   No need to remove duplication this time  
   Consider skipping to review after 20 minutes  
 
----
+--
 
-# Review
+## Review
 
 + What made that harder?
 + Did you change the amount of duplication?
@@ -124,7 +124,7 @@ Note:
   Change to tests harder due to multiple assertions  
   Show them the change?  
 
----
+--
 
 ```java
     void scannedA() {
@@ -149,7 +149,7 @@ Note: Names in methods, Strings, variables
   Costs in text and also as part of offer  
   Offers algorithm duplicated within class and variant of it exists in Checkout (violates SRP)  
 
----
+--
 
 ```java
     @Test
@@ -175,13 +175,13 @@ Note: Mention that tests are declarative, explain declarative
 
 ---
 
-# Exercise
+## Exercise
 
 Remove the duplication of the receipt format. You are free to improve the format, but remember that changes to the format will need to be reflected in the tests.
 
----
+--
 
-# Review
+## Review
 
 Before:
 ```java
