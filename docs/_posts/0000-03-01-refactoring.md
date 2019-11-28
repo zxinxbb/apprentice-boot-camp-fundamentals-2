@@ -59,7 +59,7 @@ Note:
 
 ## Stay green!
 
-<background>green<background/>
+<background>green</background>
 
 + Compilation errors and failing tests are a distraction
 + Generally refactoring doesn’t break tests / syntax
