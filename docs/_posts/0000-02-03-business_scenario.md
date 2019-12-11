@@ -136,10 +136,6 @@ _**Then… **_ the total will be £30
 
 --
 
-
-
---
-
 Design
 
 <img src="{{ site.github.url }}/images/billing-design.svg" style="height: 500px;background:white">
