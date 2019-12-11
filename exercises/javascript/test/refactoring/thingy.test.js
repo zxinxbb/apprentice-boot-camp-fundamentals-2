@@ -3,7 +3,7 @@ const datatypeConverter = require('../../main/util-datatype-converter');
 
 describe('Thingy test', () => {
   test('It works', () => {
-    expect(thingy.doTheThing()).toEqual(String.fromCharCode.apply(null,
+    expect(thingy.doTheThing() === String.fromCharCode.apply(null,
       datatypeConverter.parseHexString("3120322046697a7a20342042757a7a2046697a7a203720382046697a7a2042757a7a203131" +
         "2046697a7a2031332031342046697a7a42757a7a2031362031372046697a7a2031392042757a7a204669" +
         "7a7a2032322032332046697a7a2042757a7a2032362046697a7a2032382032392046697a7a42757a7a20" +
@@ -14,7 +14,7 @@ describe('Thingy test', () => {
         "2046697a7a2037332037342046697a7a42757a7a2037362037372046697a7a2037392042757a7a204669" +
         "7a7a2038322038332046697a7a2042757a7a2038362046697a7a2038382038392046697a7a42757a7a20" +
         "39312039322046697a7a2039342042757a7a2046697a7a2039372039382046697a7a2042757a7a"))
-    );
+    ).toBeTruthy();
   });
 });
 
