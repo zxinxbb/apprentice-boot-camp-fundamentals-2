@@ -73,7 +73,9 @@ _**So that…**_ I can sell my vehicle more quickly
 
 + Testing by specification
 + Less ambiguous
-+ GWT
++ Given, When, Then
++ Feel familiar?
++ Arrange, Act, Assert 😍 Given, When, Then
 
 --
 
