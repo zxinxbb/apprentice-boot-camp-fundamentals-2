@@ -18,7 +18,7 @@ class ThingyTest(unittest.TestCase):
                                      "39312039322046697a7a2039342042757a7a2046697a7a2039372039382046697a7a2042757a7a").decode('utf-8')
 
         actual = Thingy().do_the_thing()
-        self.assertEqual(expected, actual)
+        self.assertTrue(expected == actual)
 
 
 if __name__ == "__main__":
