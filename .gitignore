@@ -13,4 +13,7 @@ exercises/java/out
 exercises/java/.gradle
 exercises/java/build/
 
+node_modules
+package-lock.json
+
 *.pyc
