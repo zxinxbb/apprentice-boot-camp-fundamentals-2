@@ -11,7 +11,7 @@ namespace apprentice_bootcamp_fundamentals_2
         public string DoTheThing()
         {
             string s = "";
-            for (; foo < Byte.MaxValue - 27; foo++) s += b(foo) + " ";
+            for (; foo < Byte.MaxValue - 155; foo++) s += b(foo) + " ";
             return s.Substring(0, s.Length - 1);
         }
 
