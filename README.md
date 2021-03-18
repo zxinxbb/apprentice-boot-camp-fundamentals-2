@@ -54,6 +54,7 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
 * [Refactoring Guru](https://refactoring.guru/) is a great site which covers the practices, techniques and reasons around refactoring
 * [List of katas](http://codingdojo.org/kata/)
 * [Michael Feathers’ Working Effectively with Legacy Code](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) if you want a book to read
+* [Uncle Bob’s Bowling Game Kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata) page has a Powerpoint presentation which shows step by step how he approaches solving the problem. Note his to-do list in the top left corner.
  
 ## Slides
 
