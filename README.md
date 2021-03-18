@@ -72,7 +72,6 @@ The slides can be viewed from the link at the top of the repository.
 * Removing duplication
 * Setting up CI
 * Branching and creating Pull Requests
-* Resolving, tracing, telneting?
 
 # Boot Camp Summary
 
