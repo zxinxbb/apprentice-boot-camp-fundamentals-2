@@ -40,5 +40,5 @@ class Checkout {
 };
 
 module.exports = {
-  Checkout: Checkout
+  Checkout
 };

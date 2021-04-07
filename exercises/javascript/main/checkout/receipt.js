@@ -44,5 +44,5 @@ class Receipt {
 };
 
 module.exports = {
-  Receipt: Receipt
+  Receipt
 };
