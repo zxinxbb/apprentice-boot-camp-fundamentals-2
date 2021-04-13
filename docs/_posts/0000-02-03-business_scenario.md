@@ -142,6 +142,12 @@ Design
 
 --
 
+Design
+
+<img src="{{ site.github.url }}/images/billing-javascript-design.png" style="height: 500px;background:white">
+
+--
+
 ## Review
 
 + How easy was it?
