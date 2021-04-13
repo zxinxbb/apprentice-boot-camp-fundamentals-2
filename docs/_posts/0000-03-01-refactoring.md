@@ -133,6 +133,21 @@ void scan(String stockKeepingUnit) {
 
 --
 
+## Example
+
+Before:
+```javascript
+function scan(sku) {
+    if (sku === "A") {
+```
+After:
+```javascript
+function scan(stockKeepingUnit) {
+    if (stockKeepingUnit === "A") {
+```
+
+--
+
 ## Exercise
 
 Rename all the things
@@ -192,6 +207,25 @@ if (numberOfAIsMultipleOf3) {
 
 --
 
+## Example
+
+Before:
+```javascript
+if (numberOfA % 3 === 0) {
+    total -= 20;
+}
+```
+
+After:
+```javascript
+const numberOfAIsMultipleOf3 = numberOfA % 3 === 0;
+if (numberOfAIsMultipleOf3) {
+    total -= 20;
+}
+```
+
+--
+
 ## Exercise
 
 Extract all the variables
@@ -240,6 +274,24 @@ After:
 ```java
 if (numberOfA % 3 == 0) {
     total -= DISCOUNT_VALUE_A;
+}
+```
+
+--
+
+## Example
+
+Before:
+```javascript
+if (numberOfA % 3 === 0) {
+    total -= 20;
+}
+```
+
+After:
+```javascript
+if (numberOfA % 3 === 0) {
+    total -= discountValueA;
 }
 ```
 
@@ -321,6 +373,48 @@ After:
 
 --
 
+## Example
+
+Before:
+```javascript
+    if (sku === "A") {
+        numberOfA++;
+        if (numberOfA % 3 === 0) {
+            total -= 20;
+        }
+    } else if (sku === "B") {
+        numberOfB++;
+        if (numberOfB % 2 === 0) {
+            total -= 15;
+        }
+    }
+```
+
+--
+
+## Example
+
+After:
+```javascript
+    if (sku === "A") {
+      numberOfA++;
+      discount(numberOfA, 3, 20);
+    } else if (sku === "B") {
+      numberOfB++;
+      discount(numberOfB, 2, 15);
+    }
+```
+```javascript
+  function discount(quantity, offerQuantity, discount) {
+    if (quantity % offerQuantity === 0) {
+      total -= discount;
+    }
+  }
+
+```
+
+--
+
 ## Exercise
 
 Extract some methods
@@ -371,6 +465,34 @@ After:
 String word = isFizz() || isBuzz() ?"":String.valueOf(foo + 1);
 if (isFizz()) word += FIZZ();
 if (isBuzz()) word += BUZZ();
+```
+
+--
+
+## Example
+
+Before:
+```javascript
+const fizz = isFizz();
+const buzz = isBuzz();
+let word = fizz || buzz ? "" : `${foo + 1}`;
+if (fizz) {
+  word += FIZZ();
+}
+if (buzz) {
+  word += BUZZ();
+}
+```
+
+After:
+```javascript
+let word = isFizz() || isBuzz() ? "" : `${foo + 1}`;
+if (isFizz()) {
+  word += FIZZ();
+}
+if (isBuzz()) {
+  word += BUZZ();
+}
 ```
 
 --
