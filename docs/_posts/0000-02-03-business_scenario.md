@@ -54,17 +54,21 @@ _**As a…**_ dealer<br/>
 _**I want…**_ to be able to pay for a fixed rate stock level<br/>
 **So that…** I can budget for my advertising expenditure
 
-_**As a……**_ dealer<br/>
+_**As a…**_ dealer<br/>
 _**I want…**_ to be able to promote my adverts for a month<br/>
 _**So that…**_ I can stand out from my competitors when necessary  
 
-_**As a……**_ private car seller<br/>
+_**As a…**_ private car seller<br/>
 _**I want…**_ to be able to place an advert for my vehicle for a monthly fee<br/>
 _**So that…**_ I can sell my vehicle  
 
-_**As a……**_ private car seller<br/>
+_**As a…**_ private car seller<br/>
 _**I want…**_ to be able to promote my advert for a month<br/>
 _**So that…**_ I can sell my vehicle more quickly  
+
+_**As a…**_ advertiser<br/>
+_**I want…**_ to be able to advertise my vehicles on other websites<br/>
+_**So that…**_ I can reach a wider audience  
 </small>
 
 --
