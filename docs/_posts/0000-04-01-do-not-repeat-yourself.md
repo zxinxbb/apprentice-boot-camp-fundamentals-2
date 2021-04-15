@@ -12,6 +12,24 @@ Note: DRY is a principle telling us to avoid duplication in code
 
 --
 
+<backgroundimage>https://upload.wikimedia.org/wikipedia/commons/5/55/Kent_Beck_no_Workshop_Mapping_XP.jpg</backgroundimage>
+<backgroundimageopacity>0.5</backgroundimageopacity>
+<!-- .slide: data-background-position="top" -->
+
+Originated from Kent Beck’s [Once And Only Once](http://wiki.c2.com/?OnceAndOnlyOnce) rule.  
+(see also [CodeSmell](http://wiki.c2.com/?CodeSmell)).
+
+> The program should express each idea once and only once - there should be no duplicate code.
+
+<small>
+[This file](https://www.flickr.com/photos/8512982@N05/1574023621/) is licensed under the Creative Commons [Attribution-Share Alike 2.0 Generic](https://creativecommons.org/licenses/by-sa/2.0/deed.en) license.
+</small>
+
+Note: Kent also created extreme programming, helped form the Agile Manifesto, is the leading proponent of TDD, spawned unit testing frameworks and popularised CRC cards.  
+OAOO similar to DRY but subtly different  
+
+--
+
 ## Duplication can be…
 
 + The exact same code in more than one place
