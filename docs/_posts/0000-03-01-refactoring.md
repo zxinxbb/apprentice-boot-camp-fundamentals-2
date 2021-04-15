@@ -168,6 +168,12 @@ Note:
 
 --
 
+## What is this code?
+
++ Would you like to play a game?
+
+--
+
 ## Review
 
 * Did you improve the code?
