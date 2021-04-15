@@ -478,6 +478,7 @@ if (isFizz()) word += FIZZ();
 if (isBuzz()) word += BUZZ();
 ```
 
+Note: Inlining the fizz and buzz variables
 --
 
 ## Example
@@ -506,6 +507,7 @@ if (isBuzz()) {
 }
 ```
 
+Note: Inlining the fizz and buzz variables
 --
 
 ## Uh-oh!
