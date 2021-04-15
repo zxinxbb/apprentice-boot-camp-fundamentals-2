@@ -159,6 +159,7 @@ Aim is to get comfortable with the rename refactor
   *  Mac & Windows: ‘⇧ F6’
 * Try to make it make more sense
 * Rename stuff as you try to understand the code
+* You can change whitespace
 
 Note:
   More important to get comfortable than finish  
