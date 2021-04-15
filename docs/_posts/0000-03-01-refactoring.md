@@ -239,6 +239,7 @@ Extract all the variables
 
 Aim is to get comfortable with the extract variable refactor
 
+* Commit your work before we continue!
 * Do not break ThingyTest
 * **ONLY** use extract variable
   *  Mac: ‘⌥ ⌘ V’ (i.e. ‘option command V’)
@@ -252,6 +253,7 @@ Aim is to get comfortable with the extract variable refactor
 * Did you improve the code?
 + What variables did you extract?  
   (live-code the suggestions…)
++ Commit your work before we continue!
 
 Note:
   Toggle between extended and mirrored with ‘⌘ F1’  
@@ -310,6 +312,7 @@ Extract all the constants
 
 Aim is to get comfortable with the extract constant refactor
 
+* Commit your work before we continue!
 * Do not break ThingyTest
 * **ONLY** use extract constant
   *  Mac: ‘⌥ ⌘ C’ (i.e. ‘option command C’)
@@ -428,6 +431,7 @@ Extract some methods
 
 Aim is to get comfortable with the extract method refactor
 
+* Commit your work before we continue!
 * Do not break ThingyTest
 * **ONLY** use extract method
   *  Mac: ‘⌥ ⌘ M’ (i.e. ‘option command M’)
