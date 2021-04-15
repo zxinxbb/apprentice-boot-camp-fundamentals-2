@@ -102,30 +102,6 @@ The slides can be viewed from the link at the top of the repository.
 * Why duplication happens
 * Exercise: refactor away duplication
 
-<!--- 
-
-## Continuous Integration
-
-* What is CI
-* Why is CI important
-* Demo of how CI can be applied to a project (Travis or similar against public repo)
-* CI practical—setting up Travis or similar on own repo?
-
-## More on source control
-
-* Branching
-* Pull requests
-* Trunk vs branch development
-
-# How the internet works
-
-* Hostnames, IP, DNS
-* Networking
-* Physical infrastructure
-* HTTP
-
---->
-
 # Briefing for organisation mentors
 
 * TBC
