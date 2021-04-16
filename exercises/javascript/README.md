@@ -4,4 +4,8 @@ To install dependencies
 To run tests
 `npm test`
 
-If you would like the tests to run in watch mode, run `npm run test:watch`. To cancel watch mode, press `q` to quit.
+If you would like the tests to run in watch mode, run `npm run test:watch`. 
+
+By default this runs the tests for any files that have changed, however you can choose to only run a particular file by pressing `p` and then entering a pattern to match a file. For example, to only run the tests for the checkout task, you could press `p` then enter `checkout`.
+
+To cancel watch mode, press `q` to quit.
