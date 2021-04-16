@@ -4,11 +4,18 @@
 
 --
 
-## Retro
+## Review
 
-Note: Retrospect on day one  
-  What did you like  
-  What didn’t you like?  
++ Yesterday:
+  + TDD
+  + Bowling
++ Today:
+  + Refactoring
+  + DRY
+
+--
+
+## Feedback
 
 ---
 
