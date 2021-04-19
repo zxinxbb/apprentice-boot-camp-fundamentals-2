@@ -55,6 +55,7 @@ Organisation mentors should look to exercise the knowledge we’ve covered in th
 * [List of katas](http://codingdojo.org/kata/)
 * [Michael Feathers’ Working Effectively with Legacy Code](https://www.amazon.co.uk/Working-Effectively-Legacy-Michael-Feathers/dp/0131177052) if you want a book to read
 * [Uncle Bob’s Bowling Game Kata](http://www.butunclebob.com/ArticleS.UncleBob.TheBowlingGameKata) page has a Powerpoint presentation which shows step by step how he approaches solving the problem. Note his to-do list in the top left corner.
+* [INVEST in Good Stories, and SMART Tasks](https://xp123.com/articles/invest-in-good-stories-and-smart-tasks/) explains some important qualities of user stories (relevant to the requirements exercise from the boot camp)
  
 ## Slides
 
