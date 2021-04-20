@@ -4,11 +4,10 @@ using NUnit.Framework;
 
 namespace UnitTests
 {
-    [TestFixture]
     public class WhenTestingThingy
     {
 
-        [Test]
+        [Fact]
         public void ItWorks()
         {
             Thingy thingy = new Thingy();
