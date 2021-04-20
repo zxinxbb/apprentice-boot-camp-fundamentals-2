@@ -17,6 +17,27 @@
 
 ## Feedback
 
+--
+
+## You liked…
+
++ Practicing writing tests
++ Practicing pairing
++ Practicing breaking down a problem
++ Seeing examples in JavaScript
++ Easy to follow exercises
++ Having enough time to complete things / Improved time management
+
+--
+
+## Things you thought could be better…
+
++ Could have had longer to understand bowling scoring
++ Didn’t get to go bowling in reality
++ Some of the presenter sections went on a bit
++ Ran out of time for the second part of the requirements exercise
++ Didn’t see much of TC3 (Data)
+
 ---
 
 ## Refactoring
