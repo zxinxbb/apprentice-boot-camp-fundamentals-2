@@ -25,11 +25,18 @@
  
 Two–three mentors required in addition to leads. These should be able to cover support for the required languages.
 
-Several exercises (katas and code starters) will need to be ported to required languages.
+Several exercises (katas and code starters) have been ported to required languages.
 
 ## Prep-work for apprentices
 
-None
+* Make sure you can sign in to github.com with your own account
+* **Fork** this repo (so you can push your changes later)
+* Clone your fork: `git clone https://github.com/[your-username]/apprentice-boot-camp-fundamentals-2.git`
+* Follow the instructions in the README for your language under the `exercises` directory, **making sure you can run the tests**
+  * [Java](exercises/java/README.md)
+  * [JavaScript](exercises/javascript/README.md)
+  * [C#](exercises/dotnet/README.md)
+* It’s normal to have problems with this, so just let us know! :)
 
 ### Follow-on tasks
 
