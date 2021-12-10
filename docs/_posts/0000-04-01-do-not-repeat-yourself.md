@@ -121,7 +121,8 @@ Aim is to experience problems of duplication. Rules:
 * Only change functionality with a failing test
 * Run **all** tests after each change
 + Change Checkout so that 5 ‘A’ now cost 220  
-  Be sure to check and update ReceiptTest.offers()
+  * This replaces previous offer on ‘A’
+  * Be sure to check and update ReceiptTest.offers()
 + Extension: 4 ‘C’ for 70, 5 ‘D’ for 60
 
 Note: Make sure they pair up  
