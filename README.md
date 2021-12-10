@@ -6,11 +6,14 @@
 
 ## Competencies, Behaviours and Knowledge units
 
-* TC1 Logic: writes good quality code (logic) with sound syntax in at least one language 
-* TC4 Test: can test code and analyse results to correct errors found using either V-model manual testing and/or using unit testing
-* TC9 Development lifecycle: can operate at all stages of the software development lifecycle, with increasing breadth and depth over time with initial focus on build and 
-* TC10 Can apply good practice approaches according to the relevant paradigm (for example object oriented, event driven or procedural)
-* TC11 Can interpret and follow: software designs and functional/technical specifications, testing frameworks and methodologies, company defined ‘coding standards’ or industry good practice for coding, company/team/client approaches to continuous integration/source control
+These relate to the KSBs defined in the [Level 4 Software Developer standard](https://www.instituteforapprenticeships.org/apprenticeship-standards/software-developer-v1-1).
+
+* **K7**: Software design approaches and patterns, to identify reusable solutions to commonly occurring problems
+* **S1**: create logical and maintainable code
+* **S4**: test code and analyse results to correct errors found using unit testing
+* **S6**: identify and create test scenarios
+* **S7**: apply structured techniques to problem solving, debug code and understand the structure of programmes in order to identify and resolve issues
+* **S9**: create analysis artefacts, such as use cases and/or user stories
 
 ## Resources 
 
