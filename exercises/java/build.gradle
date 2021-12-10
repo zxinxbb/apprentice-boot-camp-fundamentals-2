@@ -8,6 +8,7 @@ targetCompatibility = 1.8
 apply plugin: 'idea'
 
 dependencies {
+    implementation 'commons-codec:commons-codec:1.15'
     testImplementation 'junit:junit:4.11'
     testImplementation 'org.assertj:assertj-core:3.9.1'
 }

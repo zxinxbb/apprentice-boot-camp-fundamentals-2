@@ -1,6 +1,8 @@
 package refactoring;
 
-import javax.xml.bind.DatatypeConverter;
+import org.apache.commons.codec.DecoderException;
+import org.apache.commons.codec.binary.Hex;
+
 import java.nio.charset.StandardCharsets;
 
 class Thingy {
@@ -26,11 +28,22 @@ class Thingy {
 
     private String foo() {
         foobar = new int[]{0, 0, 0, 0, 0}.length;
-        return new String(DatatypeConverter.parseHexBinary("42757a7a"), StandardCharsets.UTF_8);
+        try {
+            return new String(Hex.decodeHex("42757a7a"), StandardCharsets.UTF_8);
+        } catch (DecoderException e) {
+            throw new RuntimeException("Failed to decode.", e);
+        }
+//        return new String(DatatypeConverter.parseHexBinary("42757a7a"), StandardCharsets.UTF_8);
     }
 
     private String bar() {
         bar = 0;
-        return new String(DatatypeConverter.parseHexBinary("46697a7a"), StandardCharsets.UTF_8);
+        try {
+            return new String(Hex.decodeHex("46697a7a"), StandardCharsets.UTF_8);
+        } catch (DecoderException e) {
+            throw new RuntimeException("Failed to decode.", e);
+        }
+
+//        return new String(DatatypeConverter.parseHexBinary("46697a7a"), StandardCharsets.UTF_8);
     }
 }
