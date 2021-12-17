@@ -95,6 +95,16 @@ Note:
 
 --
 
+<backgroundimage>https://i.giphy.com/3rpL9rrSbzevK.gif</backgroundimage>
+
+## Staying green isn’t easy
+
+It gets easier with practice
+
+Note: Mostly because Kermit, but worth highlighting that this isn’t easy and deserves practice.
+
+--
+
 ## What is a refactor?
 
 Recognised technique by which you change some aspect of the code
