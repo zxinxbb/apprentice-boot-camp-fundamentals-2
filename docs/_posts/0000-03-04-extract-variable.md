@@ -1,4 +1,4 @@
-## Extract Variable
+## Extract/Introduce Variable
 
 Extract part of a line (an expression) into a variable (and other duplicate code)
 

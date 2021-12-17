@@ -1,4 +1,4 @@
-## Extract Constant
+## Extract/Introduce Constant
 
 + Remove ‘magic numbers’
 + Add meaning to values found in the code

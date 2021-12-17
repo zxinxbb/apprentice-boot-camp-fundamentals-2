@@ -1,4 +1,4 @@
-## Extract Method
+## Extract/Introduce Method
 
 + Reduce duplication of blocks of code
 
