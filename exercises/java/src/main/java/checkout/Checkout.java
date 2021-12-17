@@ -1,7 +1,7 @@
 package checkout;
 
 class Checkout {
-    private int total;
+    private int total = 0;
     private int numberOfA = 0;
     private int numberOfB = 0;
     private Receipt receipt = new Receipt();
