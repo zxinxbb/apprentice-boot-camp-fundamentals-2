@@ -33,7 +33,6 @@ class Thingy {
         } catch (DecoderException e) {
             throw new RuntimeException("Failed to decode.", e);
         }
-//        return new String(DatatypeConverter.parseHexBinary("42757a7a"), StandardCharsets.UTF_8);
     }
 
     private String bar() {
@@ -43,7 +42,5 @@ class Thingy {
         } catch (DecoderException e) {
             throw new RuntimeException("Failed to decode.", e);
         }
-
-//        return new String(DatatypeConverter.parseHexBinary("46697a7a"), StandardCharsets.UTF_8);
     }
 }
