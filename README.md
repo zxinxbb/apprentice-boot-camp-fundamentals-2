@@ -39,6 +39,9 @@ Several exercises (katas and code starters) have been ported to required languag
   * [Java](exercises/java/README.md)
   * [JavaScript](exercises/javascript/README.md)
   * [C#](exercises/dotnet/README.md)
+  * [Kotlin](exercises/kotlin) - README coming soon
+  * [Typescript](exercises/typescript/README.md)
+  * [PHP](exercises/php) - coming soon 
 * It’s normal to have problems with this, so just let us know! :)
 
 ### Follow-on tasks
