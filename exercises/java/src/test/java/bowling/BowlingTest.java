@@ -36,6 +36,16 @@ public class BowlingTest {
         assertThat(score).isEqualTo(12);
 
     }
+    @Test
+    public void hasAStrike(){
+        Bowling bowling = new Bowling();
+        int [] rolls = new int [] {10,1,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+
+        int score = bowling.bowl(rolls);
+
+        assertThat(score).isEqualTo(14);
+
+    }
 
 
 

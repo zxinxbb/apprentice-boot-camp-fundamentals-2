@@ -5,19 +5,20 @@ public class Bowling {
         int result = 0;
         for (int i = 0; i < rolls.length; i += 2) {
             int frame = 0;
+            int nextOne = rolls[i + 1];
             frame += rolls[i];
-            frame += rolls[i + 1];
+
             if (frame == 10) {
-                frame += rolls[i + 2];
+                frame += nextOne + rolls[i + 2];
+                i = i - 1;
+            } else {
+                frame += nextOne;
+                if (frame == 10) {
+                    frame += rolls[i + 2];
+                }
             }
-
             result += frame;
-
-
         }
         return result;
-
-//        return Arrays.stream(rolls).sum();
-
     }
 }
