@@ -14,6 +14,15 @@ public class BowlingTest {
      int score = bowling.bowl(rolls);
 
      assertThat(score).isZero();
+    }
+    @Test
+    public void rollsAllOnes_returns20(){
+        Bowling bowling = new Bowling();
+        int [] rolls = new int [] {1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,1,};
+
+        int score = bowling.bowl(rolls);
+
+        assertThat(score).isEqualTo(20);
 
     }
 }
