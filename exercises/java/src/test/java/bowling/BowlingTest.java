@@ -9,7 +9,7 @@ public class BowlingTest {
     @Test
     public void rollsOForWholeGame_returnsScoreOf0() {
      Bowling bowling = new Bowling();
-     int [] rolls = new int [] {0,0,0};
+     int [] rolls = new int [] {0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0};
 
      int score = bowling.bowl(rolls);
 
@@ -25,4 +25,19 @@ public class BowlingTest {
         assertThat(score).isEqualTo(20);
 
     }
+
+    @Test
+    public void hasASpare(){
+        Bowling bowling = new Bowling();
+        int [] rolls = new int [] {1,9,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,};
+
+        int score = bowling.bowl(rolls);
+
+        assertThat(score).isEqualTo(12);
+
+    }
+
+
+
+
 }
