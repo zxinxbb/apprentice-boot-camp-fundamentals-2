@@ -21,4 +21,11 @@ public class Bowling {
         }
         return result;
     }
+
+    //we have array that loops over in 2s
+    //the frame is the current number - so
+
+    public int strike(){
+return 0;
+    }
 }
